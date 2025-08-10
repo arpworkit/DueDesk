@@ -1,0 +1,28 @@
+
+> duedesk-backend@1.0.0 start
+> node index.js
+
+node:internal/modules/cjs/loader:1368
+  throw err;
+  ^
+
+Error: Cannot find module 'bcryptjs'
+Require stack:
+- /home/aditya-joshi/rezoomex/Userstoryupdatedfinal/Userstory/duedesk-backend/index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1365:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1445:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (/home/aditya-joshi/rezoomex/Userstoryupdatedfinal/Userstory/duedesk-backend/index.js:5:16)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/aditya-joshi/rezoomex/Userstoryupdatedfinal/Userstory/duedesk-backend/index.js'
+  ]
+}
+
+Node.js v22.18.0

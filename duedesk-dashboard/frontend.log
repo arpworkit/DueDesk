@@ -1,0 +1,6 @@
+nohup: ignoring input
+
+> duedesk-dashboard@1.0.0 start
+> react-scripts start
+
+sh: 1: react-scripts: Permission denied

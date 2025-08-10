@@ -1,0 +1,32 @@
+{
+  "name": "duedesk-backend",
+  "version": "1.0.0",
+  "description": "DueDesk Backend API - Payment management system with customer tracking and payment processing endpoints",
+  "homepage": "http://localhost:4000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "debt-management",
+    "payment-tracking",
+    "customer-management",
+    "api",
+    "sqlite",
+    "express"
+  ],
+  "author": "DueDesk Team",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7",
+    "nodemailer": "^6.9.14",
+    "dotenv": "^16.4.5"
+  }
+}
